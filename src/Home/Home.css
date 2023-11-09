@@ -146,44 +146,4 @@
 }
 
 
- @media only screen and (min-width:320px) {
 
-    .greeting-container{
-        
-        width:70%;
-        padding:30px;
-        position:relative;
-        margin: 20px auto;
-      
-  
-
-    }
-
-    .input-field-container{
-        display: block;
-        margin: 0 auto;
-        flex-direction: column;
-        /* padding: 20px;
-        margin-bottom: 20px; */
-        width: 600px;
-        border: 1px solid rgb(151, 14, 225);
-      
-        border-radius: 5px;
-    
-    }
-
-    .input-fields{
-        width:550px;
-        padding: 5px 10px;
-        font-size: 20px;
-        outline: none;
-        border: 0.4px solid gray;
-        border-radius: 5px;
-        margin-top: 10px;
-        color: rgb(14, 87, 198);
-    }
-
-
-
-    
- }
