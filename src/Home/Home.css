@@ -2,14 +2,22 @@
     text-align: center;
 }
 .greeting-container{
-   display: block;
-   margin: 60px auto;
-    width:60%;
-    border: 1px solid black;
-    padding:20px;
+     display: block;
+     margin: 60px auto;
+    width:80%;
+    height: 350px;
+     border-radius: 5px;
+    padding:50px;
     position:relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 5px rgb(56, 54, 54);
   
 
+}
+
+.to-text{
+    font-size: 30px;
 }
 
 .from-text{
@@ -21,41 +29,84 @@
 .input-field-container{
     display: flex;
     justify-content: space-evenly;
+  box-shadow: 0 0 5px rgb(171, 167, 167);
+    /* background-color: azure; */
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(151, 14, 225);
+    margin: 20px;
+    border-radius: 5px;
 
 }
 
 .input-fields{
     width:300px;
     padding: 5px 10px;
+    font-size: 20px;
+    outline: none;
+    border: 0.4px solid gray;
+    border-radius: 5px;
+    margin-top: 5px;
+    color: rgb(14, 87, 198);
+}
+
+.greeting-text{
+    word-spacing: 10px;
 }
 
 .theme-1{
-    background-color: rgb(182, 255, 255);
+   background-image: url('./diwali-bg-1.jpg');
+   background-size: cover;
+   background-repeat: no-repeat;
+   color: aliceblue;
+   font-size: 20px;
+   background-position: 0%;
+
 }
 
 .theme-2{
-    background-color: rgb(242, 250, 189);
+
+    background-image: url('./diwali-bg-2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: aliceblue;
+    font-size: 20px;
+
+
 }
 .theme-3{
-    background-color: rgb(201, 187, 243);
+   background-image: url('./../../diwali-bg-3.jpg');
+   background-size: cover;
+   background-repeat: no-repeat;
+   color: aliceblue;
+   font-size: 20px;
 }
 .theme-4{
-    background-color: rgb(0, 255, 55);
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWRDc1ZoRqK5AfR4-9coSms2KZGbUxS_r4Lg&usqp=CAU');
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: aliceblue;
+  font-size: 20px;
+}
+
+.customize-text{
+    font-size: 24px;
 }
 
 .url{
     background-color: rgb(205, 202, 201);
     text-align: center;
     padding: 10px;
-    font-size: 20px;
-    margin-top: 100px;
+    font-size: 22px;
+    cursor: pointer;
+    /* margin-top: 100px; */
 }
 
 @media screen and (max-width:768px){
 
     .greeting-container{
         
-        width:50%;
+        width:72%;
         padding:30px;
         position:relative;
         margin: 20px auto;
@@ -68,6 +119,27 @@
       margin: 10px 10px;
         padding: 10px 10px;
 
+    }
+
+    .greeting-text{
+        font-size: 15px;
+        word-spacing: 2px;
+    }
+    
+
+    .to-text{
+        font-size: 15px;
+    }
+    
+    .from-text{
+        position:absolute;
+        bottom:10px;
+        right:20px;
+    }
+    
+    .diwali-greeting{
+        font-size: 15px;
+        text-align: center;
     }
 
     
