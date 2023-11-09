@@ -80,7 +80,7 @@ const Home = () => {
           <option value="1">greet 2</option>
           <option value="2">greet 3</option>
           <option value="3">greet 4</option>
-        </select>
+        </select><br/>
 
         <select onClick={(e) => {
           setTheme(e.target.value)
